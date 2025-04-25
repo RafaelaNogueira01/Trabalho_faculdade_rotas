@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Arial', sans-serif;
-    /* Define margem e padding padrão como 0 e aplica Arial como fonte base */
+    
 }
 
 body {
@@ -11,17 +11,17 @@ body {
     font-family: 'Roboto', sans-serif;
     padding: 20px;
     text-align: center;
-    /* Define o fundo da página, fonte do corpo, espaçamento interno e centraliza o texto */
+    
 }
 
-/* Cabeçalho */
+
 .cabecalho {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
     background-color: #08298A;
-    /* Cria um cabeçalho flexível com espaçamento entre logo e navegação */
+    
 }
 
 .logo {
@@ -33,79 +33,66 @@ body {
     border-radius: 50%;
     box-shadow: 2px 2px 8px rgb(13, 13, 13);
     filter: brightness(1.2);
-    /* Estiliza o logotipo com cor, fundo circular e sombra */
+    
 }
 
-/* Navegação */
 .navegacao {
     display: flex;
-    /* Deixa o menu de navegação em linha */
 }
 
 .lista-navegacao {
     list-style: none;
     display: flex;
     align-items: center;
-    /* Remove marcadores da lista e posiciona os itens lado a lado */
 }
 
 .item-navegacao {
     margin-right: 20px;
-    /* Espaçamento entre os itens do menu */
 }
 
 .link-navegacao {
     text-decoration: none;
     color: white;
     font-size: 20px;
-    /* Estiliza os links do menu */
 }
 
-/* Destaques e mensagens */
 .destaque {
     color: #08298A;
-    /* Destaca partes importantes com cor específica */
 }
 
 .mensagem {
     color: black;
     padding: 12px;
     font-size: 18px;
-    /* Estiliza a mensagem explicativa */
 }
 
 .mensagem strong {
     font-size: 19px;
     color: #002b80;
-    /* Destaque extra para o texto em negrito dentro da mensagem */
 }
 
-/* Container geral */
+
 .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: stretch;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
     gap: 20px;
     padding: 30px;
-    /* Organiza os blocos de endereço e mapa lado a lado com espaçamento */
+   
 }
 
-/* Caixa de endereços */
 .enderecos {
-    width: 50%;
+    
     background-color: #f4f4f4;
     padding: 20px;
     border-radius: 10px;
     overflow-y: auto;
     max-height: 600px;
-    /* Caixa que contém os endereços com rolagem se necessário */
 }
 
 .enderecos .titulo {
     text-align: center;
     margin-bottom: 20px;
     font-size: 20px;
-    /* Estiliza o título da seção de endereços */
 }
 
 .enderecos li {
@@ -115,24 +102,18 @@ body {
     margin-bottom: 10px;
     font-size: 14px;
     color: white;
-    /* Estilo de cada item de endereço da lista */
 }
 
-/* Mapa */
 .container-mapa {
-    width: 50%;
     max-height: 600px;
-    /* Define a largura e altura máxima da seção do mapa */
 }
 
 .mapa {
     width: 100%;
     height: 100%;
     border: none;
-    /* O iframe do mapa ocupa todo o espaço disponível */
 }
 
-/* Botões e interações */
 button {
     background-color: #002b80;
     color: white;
@@ -141,10 +122,9 @@ button {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
-    /* Estilo padrão para todos os botões */
+    
 }
 
-/* Título com borda */
 .borda {
     border: 10px solid #08298A;
     border-radius: 20px;
@@ -152,21 +132,18 @@ button {
     display: inline-block;
     color: white;
     padding: 5px 15px;
-    /* Título com destaque visual (borda e fundo colorido) */
+    
 }
 
-/* Rodapé */
+
 .Rodape {
     margin-top: 40px;
     padding: 20px;
     background-color: #002b80;
     color: white;
     text-align: center;
-    /* Estilo para a área de rodapé */
 }
 
-/* Ícones sociais */
 .icones-sociais a {
-    color: rgb(237, 235, 235);
-    /* Estiliza os links das redes sociais no rodapé */
+    color: rgb(237, 235, 235);   
 }
