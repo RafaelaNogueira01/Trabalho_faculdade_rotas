@@ -10,7 +10,7 @@ const lista = [
     },
     {
       nome: "Maria José",
-      endereco: "Rua Benjamim Constant, 432 – Centro, Alfenas - MG",
+      endereco: "Rua Benjamim Contant, 432 – Centro, Alfenas - MG",
     },
     {
       nome: "Laís e cunhada",
