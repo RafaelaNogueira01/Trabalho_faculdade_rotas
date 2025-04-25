@@ -88,7 +88,7 @@ function tratarOpcaoLista(indice) {
   const origem = latAtual && longAtual ? `${latAtual},${longAtual}` : "Alfenas, MG";
   const centro = latAtual && longAtual ? `${latAtual},${longAtual}` : "";
 
-  elementoMapa.src = `https://www.google.com/maps/embed/v1/directions?key=AIzaSyC_tdV7FfH0Wj0DgTdmQs36zDc4fBW1T7k&origin=Alfenas, MG&destination=Alfenas, MG&zoom=13}`;
+  elementoMapa.src = `https://www.google.com/maps/embed/v1/directions?key=AIzaSyC_tdV7FfH0Wj0DgTdmQs36zDc4fBW1T7k&origin=${origem}&destination=${item.endereco}&zoom=13${centro && `&center=${centro}`}`;
 }
 
 window.onload = inicializar;
