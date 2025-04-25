@@ -14,7 +14,7 @@ body {
     /* Define o fundo da página, fonte do corpo, espaçamento interno e centraliza o texto */
 }
 
-/* Cabeçalho */
+@media (max-width: 768px) {
 .cabecalho {
     display: flex;
     justify-content: space-between;
@@ -169,4 +169,5 @@ button {
 .icones-sociais a {
     color: rgb(237, 235, 235);
     /* Estiliza os links das redes sociais no rodapé */
+}
 }
