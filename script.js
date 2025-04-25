@@ -10,7 +10,7 @@ const lista = [
     },
     {
       nome: "Maria José",
-      endereco: "Rua Benjamim Contant, 432 – Centro, Alfenas - MG",
+      endereco: "Rua Benjamim Constant, 432 – Centro, Alfenas - MG",
     },
     {
       nome: "Laís e cunhada",
@@ -40,11 +40,11 @@ const lista = [
     },
     {
       nome: "Vania Maria de Souza",
-      endereco: "Rua Elízio Ayer, 413 – Campos Elísios, Alfenas - MG",
+      endereco: "Rua Elisio Ayer, 413 – Campos Elísios, Alfenas - MG",
     },
     {
       nome: "Nen",
-      endereco: "Rua Elízio Ayer, 470 – Campos Elísios, Alfenas - MG",
+      endereco: "Rua Elisio Ayer, 470 – Campos Elísios, Alfenas - MG",
     },
     {
       nome: "Jussara",
@@ -52,7 +52,7 @@ const lista = [
     },
     {
       nome: "Aparecido Ferreira de Freitas (Hominho das pernas tortas)",
-      endereco: "Rua Elízio Ayer, 293 – Campos Elísios, Alfenas - MG",
+      endereco: "Rua Elisio Ayer, 293 – Campos Elísios, Alfenas - MG",
     },
   ];
   
