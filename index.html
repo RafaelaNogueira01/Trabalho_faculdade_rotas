@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ViraRota</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="script.js" defer></script>
+</head>
+
+<body>
+    <header class="cabecalho">
+      <div class="logo">ViraRota</div>
+      <nav class="navegacao">
+          <ul class="lista-navegacao">
+              <li class="item-navegacao"><span class="link-navegacao">Casa</span></li>
+              <li class="item-navegacao"><span class="link-navegacao">Rotas</span></li>
+          </ul>
+      </nav>
+  </header>
+
+    <br>
+    <br>
+
+    <main>
+    <div class ="fundo-cinza">
+        <h1>Transforme suas <span class="destaque">Entregas de Doações</span> em um caminho rápido e eficiente!</h1>
+        <div class="mensagem">
+            <p><strong>Roteie sua generosidade:</strong> Descubra a melhor rota para fazer a diferença e levar sua doação a quem mais precisa.</p>
+        </div>
+    </div>
+
+        <br>
+        <br>
+
+        <h3 class="titulo">
+            <div class="borda"> Mapeando Rotas</div>
+        </h3>
+        
+        <br>
+        <br>
+        <div class="container">
+        <div class="enderecos">
+          <h3 class="titulo">Endereços</h3>
+          <ul id="list"></ul>
+        </div>
+        <div class="container-mapa">
+            <iframe id="mapa" class="mapa" frameborder="0" src="https://www.google.com/maps/embed/v1/directions?key=AIzaSyC_tdV7FfH0Wj0DgTdmQs36zDc4fBW1T7k&origin=${origem}&destination=${item.endereco}&zoom=13${centro && `&center=${centro};"></iframe>
+          </div>
+        </div>
+
+        <br>
+        <br>
+        <br>
+        
+    <div class="fundo-cinza">
+         <div class="botoes">
+            <a href="#" class="botao"><button>Ver Rotas</button></a>
+            <a href="#" class="botao"><button>Saiba Mais</button></a>
+        </div>
+    </div>
+        
+        <br>
+        <br>
+        <footer class="Rodape">
+        <h3>Unifenas</h3>
+      <p>Alfenas - MG</p>
+      <p>www.unifenas.br | (31) 4000-2386</p>
+    </div>
+
+    <div class="secao-rodape">
+      <h4>Redes sociais</h4>
+      <div class="icones-sociais">
+        <a href="https://www.instagram.com/unifenas/" target="_blank">
+          <i class="fab fa-instagram"></i> Instagram
+        </a><br>
+        <a href="https://www.facebook.com/Unifenas/" target="_blank">
+          <i class="fab fa-facebook"></i> Facebook
+        </a><br>
+        <a href="https://www.youtube.com/user/unifenasbr" target="_blank">
+          <i class="fab fa-youtube"></i> YouTube
+        </a><br>
+      </div>
+    </div>
+    <div class="rodape-inferior">
+      © 2025 Universidade Professor Edson Antônio Velano. Todos os direitos reservados.
+    </div>
+    </footer>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
