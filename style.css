@@ -105,7 +105,7 @@ body {
 }
 
 .container-mapa {
-    max-height: 600px;
+    max-height: none;
 }
 
 .mapa {
@@ -146,4 +146,19 @@ button {
 
 .icones-sociais a {
     color: rgb(237, 235, 235);   
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+
+    .enderecos,
+    .container-mapa {
+        max-height: none;
+    }
+
+    .mapa {
+        height: 300px;
+    }
 }
