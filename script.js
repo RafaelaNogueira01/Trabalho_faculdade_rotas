@@ -2,28 +2,28 @@ const lista = [
     {
       nome: "D. Elza",
       endereco:
-        "Rua Gabriela da Costa Santos, 379 – Bairro Pinheirinho, Alfenas - MG",
+        "Rua Gabriela da Costa, 379 – Bairro Pinheirinho, Alfenas - MG",
     },
     {
       nome: "Irmão da Risley",
-      endereco: "Rua Juscelino Barbosa, 1438 – Centro, Alfenas - MG",
+      endereco: "Rua Juscelino Barbosa, 1439 – Res. Aeroporto, Alfenas - MG",
     },
     {
       nome: "Maria José",
-      endereco: "Rua Benjamim Contant, 432 – Centro, Alfenas - MG",
+      endereco: "Rua Benjamim Constant, 432 – Res. Aeroporto, Alfenas - MG",
     },
     {
       nome: "Laís e cunhada",
-      endereco: "Rua Fany Enguel, 137 – Campos Elísios, Alfenas - MG",
+      endereco: "Rua Fany Enguel Macedo, 137 – Campos Eliseos, Alfenas - MG",
     },
     {
       nome: "Ezequiel",
       endereco:
-        "Rua Barão de Alfenas, 1637 – Residencial Itaparica, Alfenas - MG",
+        "Rua Barão de Alfenas, 1637 – Vila Santa Luzia, Alfenas - MG",
     },
     {
       nome: "Joaquim",
-      endereco: "Rua Barão de Alfenas, 204 – Residencial Itaparica, Alfenas - MG",
+      endereco: "Rua Barão de Alfenas, 204 – Vila Santa Luzia, Alfenas - MG",
     },
     {
       nome: "Daiana",
@@ -32,27 +32,27 @@ const lista = [
     },
     {
       nome: "Célia",
-      endereco: "Rua Cafezinho, 297 – Recreio, Alfenas - MG",
+      endereco: "Rua Cafezinho, 297 – Recreio Vale do Sol, Alfenas - MG",
     },
     {
       nome: "Filha do Vicente",
-      endereco: "Rua Elízio Ayer, 679 – Campos Elísios, Alfenas - MG",
+      endereco: "Rua Elísio Ayer, 679 – Vila Promessa, Alfenas - MG",
     },
     {
       nome: "Vania Maria de Souza",
-      endereco: "Rua Elízio Ayer, 413 – Campos Elísios, Alfenas - MG",
+      endereco: "Rua Elísio Ayer, 413 – Res. Itaparica, Alfenas - MG",
     },
     {
       nome: "Nen",
-      endereco: "Rua Elízio Ayer, 470 – Campos Elísios, Alfenas - MG",
+      endereco: "Rua Elízio Ayer, 470 – Res. Itaparica, Alfenas - MG",
     },
     {
       nome: "Jussara",
-      endereco: "Rua Antônio Generoso, 61 – Campos Elísios, Alfenas - MG",
+      endereco: "Rua Antônio Generoso da Silva, 61 – Vista Grande, Alfenas - MG",
     },
     {
       nome: "Aparecido Ferreira de Freitas (Hominho das pernas tortas)",
-      endereco: "Rua Elízio Ayer, 293 – Campos Elísios, Alfenas - MG",
+      endereco: "Rua Elísio Ayer, 293 – Campos Elíseos, Alfenas - MG",
     },
   ];
   
@@ -76,7 +76,7 @@ function renderizarLista() {
   lista.forEach((item, index) => {
     const li = document.createElement("li");
 
-    li.innerHTML = `<button class="list-item" onclick="tratarOpcaoLista(${index})">${item.nome} - ${item.endereco}</button>`;
+    li.innerHTML = `<a href="#mapa"><button class="list-item" onclick="tratarOpcaoLista(${index})">${item.nome} - ${item.endereco}</button>`;
     elementoLista.appendChild(li);
   });
 }
