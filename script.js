@@ -44,7 +44,7 @@ const lista = [
     },
     {
       nome: "Nen",
-      endereco: "Rua Elízio Ayer, 470 – Res. Itaparica, Alfenas - MG",
+      endereco: "Rua Elísio Ayer, 470 – Res. Itaparica, Alfenas - MG",
     },
     {
       nome: "Jussara",
