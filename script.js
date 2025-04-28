@@ -14,7 +14,7 @@ const lista = [
     },
     {
       nome: "Laís e cunhada",
-      endereco: "Rua Fany Enguel Macedo, 137 – Campos Eliseos, Alfenas - MG",
+      endereco: "Rua Fany Enguel Macedo, 137 – Campo Eliseos, Alfenas - MG",
     },
     {
       nome: "Ezequiel",
@@ -52,7 +52,7 @@ const lista = [
     },
     {
       nome: "Aparecido Ferreira de Freitas (Hominho das pernas tortas)",
-      endereco: "Rua Elísio Ayer, 293 – Campos Elíseos, Alfenas - MG",
+      endereco: "Rua Elísio Ayer, 293 – Campo Elíseos, Alfenas - MG",
     },
   ];
   
