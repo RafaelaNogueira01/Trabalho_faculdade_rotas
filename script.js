@@ -52,7 +52,7 @@ const lista = [
     },
     {
       nome: "Aparecido Ferreira de Freitas (Hominho das pernas tortas)",
-      endereco: "Rua Elísio Ayer, 293 – Campo Elíseos, Alfenas - MG",
+      endereco: "Rua Elísio Ayer, 293 – Campo Eliseos, Alfenas - MG",
     },
   ];
   
